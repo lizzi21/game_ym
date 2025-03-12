@@ -1,0 +1,267 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  .main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    margin: 0 auto;
+    background: #ebdec9;
+    overflow: hidden;
+}
+
+.flex-row-c {
+    position: relative;
+    width: 96.8%; 
+    height: 49.2%;
+    margin: 0.83% 0 0 0; 
+    z-index: 14;
+}
+
+.group {
+    position: absolute;
+    width: 19.8%;
+    height: 55%; 
+    top: 0;
+    left: 0;
+    background: url(./imag/Group\ 115.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.rectangle {
+    position: absolute;
+    width: 11.1%;
+    height: 19.8%; 
+    top: 0;
+    left: 59.4%;
+    background: url(./imag/Rectangle\ 50.png) no-repeat center;
+    background-size: cover;
+    z-index: 8;
+}
+
+.star {
+    position: absolute;
+    width: 9%; 
+    height: 13.1%; 
+    top: 2.3%; 
+    left: 17%; 
+    background: url(./imag/Star\ 24.png) no-repeat center;
+    background-size: cover;
+    z-index: 12;
+}
+
+.group-1 {
+    position: absolute;
+    width: 20%; 
+    height: 60%; 
+    top: 2.3%;
+    left: 82%; 
+    background: url(./imag/Group\ 120.png) no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.rectangle-2 {
+    position: absolute;
+    width: 12.2%; 
+    height: 11.5%; 
+    top: 3.3%; 
+    left: 43.6%; 
+    background: url(./imag/Rectangle\ 49-1.png) no-repeat center;
+    background-size: cover;
+    z-index: 10;
+}
+
+.ellipse {
+    position: absolute;
+    width: 10.2%;
+    height: 17.4%; /* 187.5px / 1080px = 17.4% */
+    top: 6.8%; /* 73px / 1080px = 6.8% */
+    left: 27.8%; /* 534px / 1920px = 27.8% */
+    background: url(./imag/Ellipse\ 102.png) no-repeat center;
+    background-size: cover;
+    z-index: 4;
+}
+
+.polygon {
+    position: absolute;
+    width: 9.5%; /* 183px / 1920px = 9.5% */
+    height: 13.9%; /* 150.5px / 1080px = 13.9% */
+    top: 10.2%; /* 110px / 1080px = 10.2% */
+    left: 70.7%; /* 1357px / 1920px = 70.7% */
+    background: url(./imag/Polygon\ 22.png) no-repeat center;
+    background-size: cover;
+    z-index: 6;
+}
+
+.create-your-toy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 13.1%;
+    top: 60%; 
+    left: 21.9%; 
+    color: #5f6160;
+    font-family: Messy Handwritten, var(--default-font-family);
+    font-size: 9.375vw; 
+    font-weight: 400;
+    line-height: 13.1%; 
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+}
+
+.flex-row-f {
+    position: relative;
+    width: 95.3%; /* 1830px / 1920px = 95.3% */
+    height: 46.4%; /* 501px / 1080px = 46.4% */
+    margin: 0.83% 0 0 2.7%; /* 9px / 1080px = 0.83%, 52px / 1920px = 2.7% */
+    z-index: 16;
+}
+
+.group-3 {
+    position: absolute;
+    width: 18.8%; /* 360.5px / 1920px = 18.8% */
+    height: 43.6%; /* 470.5px / 1080px = 43.6% */
+    top: 0;
+    left: 0;
+    background: url(./imag/Group\ 131.png) no-repeat center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.group-4 {
+    position: absolute;
+    width: 19.2%; /* 369px / 1920px = 19.2% */
+    height: 45.2%; /* 488px / 1080px = 45.2% */
+    top: 0;
+    left: 76.1%; /* 1461px / 1920px = 76.1% */
+    background: url(./imag/Group\ 134.png) no-repeat center;
+    background-size: cover;
+}
+
+.rectangle-5 {
+    position: absolute;
+    width: 15.3%; /* 294px / 1920px = 15.3% */
+    height: 8.4%; /* 91px / 1080px = 8.4% */
+    top: 5%; /* 54px / 1080px = 5% */
+    left: 41.7%; /* 801px / 1920px = 41.7% */
+    background: #dfa571;
+    border: 0.26vw solid #cc7c56; /* 5px / 1920px = 0.26vw */
+    z-index: 16;
+    border-radius: 1.67vw; /* 32px / 1920px = 1.67vw */
+}
+
+.start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 5.7%; /* 62px / 1080px = 5.7% */
+    top: 0.93%; /* 10px / 1080px = 0.93% */
+    left: 2.1%; /* 40px / 1920px = 2.1% */
+    color: #5f6160;
+    font-family: Messy Handwritten, var(--default-font-family);
+    font-size: 4.17vw; /* 80px / 1920px = 4.17vw */
+    font-weight: 400;
+    line-height: 5.7%; /* 62px / 1080px = 5.7% */
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+
+.star-6,
+.star-7 {
+    position: absolute;
+    width: 1.97%; /* 37.877px / 1920px = 1.97% */
+    height: 2.87%; /* 31px / 1080px = 2.87% */
+    top: 2.22%; /* 24px / 1080px = 2.22% */
+    background: url(./imag/Star\ 24.png) no-repeat center;
+    background-size: cover;
+    z-index: 18;
+}
+
+.star-6 {
+    left: 0.21%; /* 4px / 1920px = 0.21% */
+}
+
+.star-7 {
+    left: 12.7%; /* 244px / 1920px = 12.7% */
+    z-index: 19;
+}
+
+.rectangle-8 {
+    position: absolute;
+    width: 11.1%; /* 213.5px / 1920px = 11.1% */
+    height: 19.8%; /* 213.5px / 1080px = 19.8% */
+    top: 18.5%; /* 200px / 1080px = 18.5% */
+    left: 17%; /* 327px / 1920px = 17% */
+    background: url(./imag/Rectangle\ 50.png) no-repeat center;
+    background-size: cover;
+    z-index: 9;
+}
+
+.ellipse-9 {
+    position: absolute;
+    width: 10.2%; /* 195px / 1920px = 10.2% */
+    height: 17.4%; /* 187.5px / 1080px = 17.4% */
+    top: 24.2%; /* 261px / 1080px = 24.2% */
+    left: 53.1%; /* 1019px / 1920px = 53.1% */
+    background: url(./imag/Ellipse\ 102.png) no-repeat center;
+    background-size: cover;
+    z-index: 5;
+}
+
+.star-a {
+    position: absolute;
+    width: 9%; /* 173.5px / 1920px = 9% */
+    height: 13.1%; /* 142px / 1080px = 13.1% */
+    top: 28.4%; /* 307px / 1080px = 28.4% */
+    left: 40.3%; /* 774px / 1920px = 40.3% */
+    background: url(./imag/Star\ 24.png) no-repeat center;
+    background-size: cover;
+    z-index: 13;
+}
+
+.polygon-b {
+    position: absolute;
+    width: 9.5%; 
+    height: 13.9%; 
+    top: 29.6%; 
+    left: 28.5%; 
+    background: url(./imag/Polygon\ 22.png) no-repeat center;
+    background-size: cover;
+    z-index: 7;
+}
+
+.rectangle-c {
+    position: absolute;
+    width: 12.2%; 
+    height: 11.5%; 
+    top: 34.9%; 
+    left: 65.3%;
+    background: url(./imag/Rectangle\ 49-1.png) no-repeat center;
+    background-size: cover;
+    z-index: 11;
+}
